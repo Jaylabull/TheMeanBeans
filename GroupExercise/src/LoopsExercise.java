@@ -34,7 +34,10 @@ public class LoopsExercise {
 			
 				System.out.println("SIX");
 				
-			}// end if
+			}else {
+				System.out.println(num[n]);
+			} // end if
+			
 		} // end for
 		
 	} // end main
