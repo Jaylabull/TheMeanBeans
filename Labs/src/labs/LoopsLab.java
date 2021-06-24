@@ -31,7 +31,7 @@ public class LoopsLab {
 		for (index = 0; index < loop.length; index++) {
 			int up = loop[index];
 			if (up % 4 == 0 && up % 6 == 0) {
-				System.out.print("FOUR!!SIX!!!");
+				System.out.println("FOUR!!SIX!!!");
 			}
 			else if (up % 4 == 0) {
 				System.out.println("FOUR!!");
@@ -42,8 +42,6 @@ public class LoopsLab {
 			else {
 				System.out.println(up);
 			}
-			
-		System.out.println("");
 		}	
 	}
 }
